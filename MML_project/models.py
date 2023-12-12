@@ -69,7 +69,7 @@ class Polynomial_Regression:
         self.x_test = x_test[attr2use]
         self.y_train = y_train
         self.weight = None
-        self._name = "Linear Regressor"
+        self._name = "Polynominal Regressor"
 
     def _transform_input(self, X):
         """ 입력 데이터를 다항식으로 변환 """
